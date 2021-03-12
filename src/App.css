@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:400,700,300|Quattrocento");
+* {
+    box-sizing: border-box; }
+#portfolio img {
+        width: 100%; 
+        border-radius: 25px;}
+.message{
+    color: brown;
 }
+body {
+    height: 100%;
+    font-family: "Comfortaa", Helvetica, Arial, sans-serif;
+    background-color: #bbaadd;
+    }
+    h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Comfortaa", Helvetica, Arial, sans-serif;
+  color: #07374a; }
+  body > .container-fluid {
+    padding: 60px 15px 0; }
+  
+  .container-fluid .text-muted {
+    margin: 20px 0; }
+  
+  .btn:focus, a:focus {
+    outline: none !important; }
+    
+#portfolio {
+    background-color: #bbaadd; }
+    #portfolio h2 {
+      padding-bottom: 1.25em; }
+.portfolio-projects{
+    padding-bottom: 2%;
+}
+  
+  @media screen and (min-width: 768px) {
+    .portfolio-projects {
+      margin-top: 0.625em; } }
+  .portfolio-projects--title {
+    margin-top: 0.9375em; }
+    @media screen and (min-width: 768px) {
+      .portfolio-projects--title {
+        margin-top: 20%; } }
+    @media screen and (min-width: 1200px) {
+      .portfolio-projects--title {
+        margin-top: 5%; } }
+  @media screen and (min-width: 768px) {
+    .portfolio-projects--desc {
+      margin-top: 10%;
+      margin-bottom: 10%; } }
+  .portfolio-projects--btn {
+    background: transparent;
+    color: #07374a;
+    border: 1px solid #07374a;
+    border-radius: 5px;
+    margin-bottom: 1.25em; }
+    .portfolio-projects--btn:hover {
+      background: #07374a;
+      color: #f0f0e6; }
+  .portfolio-projects--image {
+    margin-bottom: 1.875em;
+    padding-top: 5%; }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+    #education {
+      background-color: #07374a; }
+      #education h2 {
+        color: #bbaadd; }
+    
+    
+    .white {
+      color: #f0f0e6
+    }    
+    
+    .bad {
+      color: #bbaadd
+    }   
+    
+    .education-img {
+      margin-bottom: 15px;
+      width: 110px; }
+    
+    
+   
+    
+   
+    
+    
+   
+   
+    
