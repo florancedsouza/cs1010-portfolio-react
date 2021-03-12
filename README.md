@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Here's the link to the node server: 
+https://github.com/florancedsouza/cs1010-portfolio-server-node.git
+
 ## Available Scripts
 
 In the project directory, you can run:
